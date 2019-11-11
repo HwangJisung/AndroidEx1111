@@ -39,8 +39,8 @@ public class EventActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 txt.setBackgroundColor(Color.GREEN);
-                txt.setText("초록!")
-                Toast.makeText(EventActivity.this, "초록 누름", Toast.LENGTH_SHORT).show();;
+                txt.setText("초록!");
+                Toast.makeText(EventActivity.this, "초록 누름", Toast.LENGTH_SHORT).show();
             }
         });
 
